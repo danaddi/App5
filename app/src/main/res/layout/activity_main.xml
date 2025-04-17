@@ -1,11 +1,45 @@
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <LinearLayout
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f5f5f5">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <Button
+        android:id="@+id/btn_coffee"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <!-- Другие дочерние элементы -->
-    </LinearLayout>
-</ScrollView>
+        android:text="Кофе"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#6F4E37"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btn_tea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Чай"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#7BAF4B"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btn_food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Еда"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#FF9800"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btn_cocktails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Коктейли"
+        android:backgroundTint="#9C27B0"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

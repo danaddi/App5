@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="userName">
+        <item>Елена</item>
+        <item>Николай</item>
+        <item>Вера</item>
+        <item>Леонид</item>
+        <item>Юлия</item>
+        <item>Владимир</item>
+        <item>Сергей</item>
+        <item>Михаил</item>
+        <item>Ольга</item>
+        <item>Татьяна</item>
+        <item>Алексей</item>
+    </string-array>
+</resources>

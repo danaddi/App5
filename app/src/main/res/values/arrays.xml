@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tea_names">
+        <item>Матча</item>
+        <item>Чай черный</item>
+        <item>Чай зеленый</item>
+    </string-array>
+
+    <array name="tea_images">
+        <item>@drawable/tea_matcha</item>
+        <item>@drawable/tea_black</item>
+        <item>@drawable/tea_green</item>
+    </array>
+</resources>
